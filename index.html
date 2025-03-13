@@ -6,11 +6,14 @@
     <title>First Web Page</title>
 </head>
 <body>
+    <marquee onmouseover="this.stop()" onmouseleave="this.start()"><h1 style="color:red;">Welcome</h1></marquee>
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname">
 
-    <marquee onmouseover="this.stop()" onmouseleave="this.start()"><h1 style="color:red;">Hi from NCG</h1></marquee>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-
-    <form>Login
-    </form>
+    <button type="submit">Login</button>
+    <label>
 </body>
 </html>
